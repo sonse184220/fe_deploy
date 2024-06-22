@@ -1,0 +1,119 @@
+/* Feedback.css */
+
+.single-tab-content-item {
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comment-list {
+    margin-bottom: 30px;
+}
+
+.comment-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.comment-img {
+    /* width: 60px;
+    height: 60px; */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.comment-img img {
+    width: 100%;
+    height: auto;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.comment-content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comment-content-left {
+    display: flex;
+}
+
+.comment-name {
+    font-weight: bold;
+    margin-right: 10px;
+    padding-top: 7px;
+}
+
+.review-star {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.review-star li {
+    color: gold;
+}
+
+.comment-content-right a {
+    color: #333;
+    text-decoration: none;
+}
+
+.para-content {
+    margin-bottom: 10px;
+}
+
+.review-form {
+    margin-top: 30px;
+}
+
+.review-form-text-top {
+    margin-bottom: 20px;
+}
+
+.review-form-text-top h5 {
+    font-weight: bold;
+}
+
+.default-form-box {
+    margin-bottom: 15px;
+}
+
+.default-form-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.btn-black-default-hover {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-black-default-hover:hover {
+    background-color: #555;
+}
+
+.feedback-title {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 25px;
+}

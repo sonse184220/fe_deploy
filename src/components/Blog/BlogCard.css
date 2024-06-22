@@ -1,0 +1,16 @@
+.blog-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+}
+
+.author-description {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+}

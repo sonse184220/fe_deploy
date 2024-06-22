@@ -1,0 +1,117 @@
+
+.blog-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.all-blog-list-container {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 2rem; 
+  overflow: hidden;
+} 
+
+.all-blog-list-container .blog-list-content{
+  display: none;
+}  
+ .all-blog-list-container .blog-list {
+  width: 300px;
+  margin-left: 10px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.all-blog-list-container .scroll-button {
+  display: none;
+}
+
+.all-blog-list-container .blog-list-container {
+  display: flex;
+  padding: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.all-blog-list-container .blog-list-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.heading-blog-list h3{
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.product-list-container {
+  width: 100%;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+/* search blog */
+.searchBlog {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.searchBlog input {
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  width: 400px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.searchBlog input:focus {
+  outline: none;
+  border-color:hsl(328, 83%, 77%);
+  box-shadow: 0 0 5px hsl(328, 93%, 72%);
+}
+
+.searchBlog button {
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: hsl(328, 93%, 72%);
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.searchBlog button:hover {
+  background-color: snow;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: hsl(328, 93%, 72%);
+}
+
+.col-lg-4 h3{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 30px;
+}
